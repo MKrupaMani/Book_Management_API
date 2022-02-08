@@ -1,0 +1,69 @@
+Book
+- ISBN              - String
+- Title             - String
+- Author            - [Number]
+- Language          - String
+- Publications      - Number
+- Number of Pages   - Number
+- Categories        - [String]
+
+Author
+- id                 - Number
+- Name               - String 
+- Books              - [String] 
+
+Publications
+- id                 - Number
+- Name               - String 
+- Books              - [String]
+
+
+----- APIs --------
+Books
+-GET
+     - to get all Books
+     - to get specific Books
+     - to get a list of books based on category
+     - to get a list of books based on Author
+
+- POST
+     - to add new book
+
+- PUT 
+     - to update book details
+     - to update/ add new author
+
+- DELETE 
+     - delete a book
+     - delete an author from the book
+
+Author
+-----
+- GET
+     - to get all authors
+     - to get specific author
+     - to get list of authors based on book
+
+- POST
+     - to add new author 
+
+- PUT 
+     - update author details 
+
+- DELETE
+     - delete an author 
+
+Publications
+------------
+- GET 
+     - to get all Publications
+     - to get specific Publications
+     - to get a list of Publications based on book 
+- POST 
+     - add new Publication
+- PUT 
+     - update Publication
+     - to update/ add a new book
+- DELETE 
+     - delete a book from Publication
+     - delete a Publication
